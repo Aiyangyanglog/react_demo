@@ -1,7 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
-import LikeButton from './Demo/LikeButton';
-import Module from './Demo/Module';
+// import LikeButton from './Demo/LikeButton';
+// import List from './Demo/List';
+// import Module from './Demo/Module';
+import CommentApp from './project/CommentApp';
 
 import './App.css';
 
@@ -28,7 +30,11 @@ import './App.css';
 
 function App() {
   return (
-    <LikeButton color='red' like='赞' notLike='不赞' onClick={() => console.log('121212')}/>
+    <div>
+      <CommentApp/>
+    </div>
+    // <LikeButton color='red' like='赞' notLike='不赞' onClick={() => console.log('121212')}/>
+    // <List />
     // <Module />
   );
 }
