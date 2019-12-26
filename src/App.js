@@ -4,6 +4,12 @@ import React from 'react';
 // import List from './Demo/List';
 // import Module from './Demo/Module';
 import CommentApp from './project/CommentApp';
+// import AddComponent from './LifeCycle/AddComponent';
+// import DelComponent from './LifeCycle/DelComponent';
+// import Clock from './LifeCycle/Clock';
+// import Ref from './LifeCycle/Ref';
+// import Style from './LifeCycle/Style';
+// import PropType from './LifeCycle/PropType';
 
 import './App.css';
 
@@ -36,6 +42,12 @@ function App() {
     // <LikeButton color='red' like='赞' notLike='不赞' onClick={() => console.log('121212')}/>
     // <List />
     // <Module />
+    // <AddComponent/>
+    // <DelComponent/>
+    // <Clock/>
+    // <Ref/>
+    // <Style/>
+    // <PropType comment={{ username: 'Tom', content: 'React.js 小书'}}/>
   );
 }
 
