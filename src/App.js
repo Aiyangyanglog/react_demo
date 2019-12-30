@@ -3,13 +3,14 @@ import React from 'react';
 // import LikeButton from './Demo/LikeButton';
 // import List from './Demo/List';
 // import Module from './Demo/Module';
-import CommentApp from './project/CommentApp';
+// import CommentApp from './project/CommentApp';
 // import AddComponent from './LifeCycle/AddComponent';
 // import DelComponent from './LifeCycle/DelComponent';
 // import Clock from './LifeCycle/Clock';
 // import Ref from './LifeCycle/Ref';
 // import Style from './LifeCycle/Style';
 // import PropType from './LifeCycle/PropType';
+import Context from './HigherComponent/Context';
 
 import './App.css';
 
@@ -37,7 +38,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <CommentApp/>
+      <Context/>
     </div>
     // <LikeButton color='red' like='赞' notLike='不赞' onClick={() => console.log('121212')}/>
     // <List />
@@ -48,6 +49,7 @@ function App() {
     // <Ref/>
     // <Style/>
     // <PropType comment={{ username: 'Tom', content: 'React.js 小书'}}/>
+    // <CommentApp/>
   );
 }
 
