@@ -10,7 +10,9 @@ import React from 'react';
 // import Ref from './LifeCycle/Ref';
 // import Style from './LifeCycle/Style';
 // import PropType from './LifeCycle/PropType';
-import Context from './HigherComponent/Context';
+// import Context from './HigherComponent/Context';
+import Header from './ReactRedux/Header';
+import Content from './ReactRedux/Content';
 
 import './App.css';
 
@@ -38,7 +40,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Context/>
+      <Header />
+      <Content />
     </div>
     // <LikeButton color='red' like='赞' notLike='不赞' onClick={() => console.log('121212')}/>
     // <List />
@@ -50,6 +53,7 @@ function App() {
     // <Style/>
     // <PropType comment={{ username: 'Tom', content: 'React.js 小书'}}/>
     // <CommentApp/>
+    // <Context/>
   );
 }
 
